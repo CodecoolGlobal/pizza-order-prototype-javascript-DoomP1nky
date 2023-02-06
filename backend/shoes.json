@@ -1,0 +1,105 @@
+{
+    "shoes": [
+        {
+            "id": 1,
+            "name": "VANS ERA 95 DX",
+            "size": [
+                36,
+                38,
+                39,
+                40
+            ],
+            "price": "35990"
+        },
+        {
+            "id": 2,
+            "name": "VANS SK8-HI",
+            "size": [
+                39,
+                40,
+                42,
+                44
+            ],
+            "price": "29990"
+        },
+        {
+            "id": 3,
+            "name": "VANS OLD SKOOL",
+            "size": [
+                39,
+                40,
+                43
+            ],
+            "price": "33990"
+        },
+        {
+            "id": 4,
+            "name": "Adidas Astir W",
+            "size": [
+                36,
+                37,
+                38,
+                39
+            ],
+            "price": "21770"
+        },
+        {
+            "id": 5,
+            "name": "Adidas Retropy Adisuper W",
+            "size": [
+                36,
+                38,
+                40
+            ],
+            "price": "37990"
+        },
+        {
+            "id": 6,
+            "name": "Adidas Retropy F2 J",
+            "size": [
+                35,
+                36,
+                38
+            ],
+            "price": "23990"
+        },
+        {
+            "id": 7,
+            "name": "Dunlop fekete gumicsizma",
+            "size": [
+                40,
+                41,
+                41,
+                42,
+                48
+            ],
+            "price": "2499"
+        },
+        {
+            "id": 8,
+            "name": "GUCCI jumbo GG Princetown slipper",
+            "size": [
+                36,
+                37,
+                38,
+                39,
+                40,
+                47
+            ],
+            "price": "256000"
+        },
+        {
+            "id": 9,
+            "name": "GUCCI platform perforated G sandal",
+            "size": [
+                36,
+                37,
+                38,
+                39,
+                40,
+                47
+            ],
+            "price": "172000"
+        }
+    ]
+}

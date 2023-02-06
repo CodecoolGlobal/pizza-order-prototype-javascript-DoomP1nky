@@ -1,0 +1,27 @@
+{
+  "name": "pizza-order-prototype-javascript-doomp1nky",
+  "version": "1.0.0",
+  "description": "No starter code is provided. Start from scratch!",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-DoomP1nky.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-DoomP1nky/issues"
+  },
+  "homepage": "https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-DoomP1nky#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
