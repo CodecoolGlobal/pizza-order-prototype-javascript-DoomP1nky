@@ -1,7 +1,5 @@
 const express = require("express");
 const path = require("path");
-const fileReaderAsync = require("./fileReader");
-const filePath = path.join(`${__dirname}/shoes.json`);
 
 const cors = require("cors");
 const app = express();
@@ -15,7 +13,7 @@ app.use(express.static(`${__dirname}/../frontend`))
 
 const port = 9000;
 
-app.get("/", (req, res) => {
+app.get("api/shoes/list", (req, res) => {
     res.sendFile(path.join(`${__dirname}/../frontend/index.html`));
 });
 
