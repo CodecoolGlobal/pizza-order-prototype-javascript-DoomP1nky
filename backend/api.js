@@ -12,6 +12,12 @@ router.get('/shoes', async (req, res) => {
     res.json(shoes);
 });
 
+router.get('/shoes/list', async (req, res) => {
+   console.log("helloooo")
+  
+});
+
+
 
 
 module.exports = router;

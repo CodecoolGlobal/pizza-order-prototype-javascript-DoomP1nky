@@ -19,6 +19,7 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(`${__dirname}/../frontend/index.html`));
 });
 
+
 const apiRouter = require('./api.js')
 app.use('/api', apiRouter)
 
