@@ -44,3 +44,9 @@ async function initializePage() {
 }
 initializePage();
 
+
+const header = document.createElement('div')
+header.id = "header";
+header.textContent = 'ShoeSzter';
+//header.style.background = "frontend\pictures\header_pic_v2.jpg";
+root.appendChild(header)

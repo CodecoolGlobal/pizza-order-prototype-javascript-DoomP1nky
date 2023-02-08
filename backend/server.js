@@ -18,10 +18,10 @@ const port = 9000;
 
 app.get("/", (req, res) => {
     res.redirect(301, '/shoes/list');
-  });
-  app.get("/shoes/list", (req, res, next) => {
+});
+app.get("/shoes/list", (req, res, next) => {
     res.sendFile(path.join(`${__dirname}/../frontend/index.html`));
-  });
+});
 //new staticmiddle app.use(express.static('mappaelérés: `${__dirname}/../frontend'))
 app.use(express.static(`${__dirname}/../frontend`))
 

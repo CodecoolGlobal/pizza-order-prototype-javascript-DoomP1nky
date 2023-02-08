@@ -13,15 +13,15 @@ router.get('/shoes', async (req, res) => {
 });
 
 router.get('/shoes/:list', async (req, res) => {
-    res.sendFile(path.join(`${__dirname}/../frontend/index.html`));  
- 
+    res.sendFile(path.join(`${__dirname}/../frontend/index.html`));
+
 });
 
 router.get('/shoes/order', async (req, res) => {
     const fileData = await fileReaderAsync(filePath);
     const shoes = JSON.parse(fileData)
-    res.json(shoes);;  
- 
+    res.json(shoes);;
+
 });
 
 
