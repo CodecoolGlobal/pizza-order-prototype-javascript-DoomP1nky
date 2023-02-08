@@ -10,7 +10,8 @@
                 40
             ],
             "price": "35.990",
-            "gender": "woman"
+            "gender": "woman",
+            "src": "/pictures/140743.jpg"
         },
         {
             "id": 2,
@@ -22,7 +23,9 @@
                 44
             ],
             "price": "29.990",
-            "gender": "woman"
+            "gender": "woman",
+            "src": "/pictures/VansSk8.jpg"
+
         },
         {
             "id": 3,
@@ -33,7 +36,9 @@
                 43
             ],
             "price": "33.990",
-            "gender": "man"
+            "gender": "man",
+            "src": "/pictures/VansOldSjpg.jpg"
+
         },
         {
             "id": 4,
@@ -45,7 +50,9 @@
                 39
             ],
             "price": "21.770",
-            "gender": "woman"
+            "gender": "woman",
+            "src": "/pictures/adidas_astir-w.jpeg"
+
         },
         {
             "id": 5,
@@ -56,7 +63,9 @@
                 40
             ],
             "price": "37.990",
-            "gender": "woman"
+            "gender": "woman",
+            "src": "/pictures/Adidas_Retropy_Adisuper_W.jpg"
+
         },
         {
             "id": 6,
@@ -67,7 +76,9 @@
                 38
             ],
             "price": "23.990",
-            "gender": "woman"
+            "gender": "woman",
+            "src": "/pictures/Adidas_Retropy_F2_J.jpg"
+
         },
         {
             "id": 7,
@@ -80,7 +91,9 @@
                 48
             ],
             "price": "2.499",
-            "gender": "man" 
+            "gender": "man",
+            "src": "/pictures/fekete-pvc-csizma.jpg"
+
         },
         {
             "id": 8,
@@ -94,7 +107,9 @@
                 47
             ],
             "price": "256.000",
-            "gender": "man"
+            "gender": "man",
+            "src": "/pictures/Gucci_Light.jpg"
+
         },
         {
             "id": 9,
@@ -108,7 +123,9 @@
                 47
             ],
             "price": "172.000",
-            "gender": "woman"
+            "gender": "woman",
+            "src": "/pictures/gucci-Black-Platform-Perforated-G-Sandal.jpeg"
+
         }
     ]
 }
