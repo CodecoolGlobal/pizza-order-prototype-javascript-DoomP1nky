@@ -1,7 +1,5 @@
 const express = require("express");
 const path = require("path");
-const fileReaderAsync = require("./fileReader");
-const filePath = path.join(`${__dirname}/shoes.json`);
 
 const cors = require("cors");
 const app = express();
