@@ -1,11 +1,15 @@
 console.log("Ez a srcipt file!")
 
 const root = document.getElementById('root');
-const button = document.createElement('button');
-button.textContent = "women";
-root.appendChild(button);
+const womenButton = document.createElement('button');
+womenButton.textContent = "WOMEN'S";
+root.appendChild(womenButton);
 
+const menButton = document.createElement('button');
+menButton.textContent = "MEN'S";
+root.appendChild(menButton);
 
+const selectSize = document.createElement()
 
 function shoeComponent(shoe) {
     return `<div>${shoe.name}<div>${shoe.price} Ft</div></div>`
@@ -20,9 +24,15 @@ async function initializePage() {
     const root = document.getElementById('root');
     root.insertAdjacentHTML('beforeend', joinedStrings)
 
-    button.addEventListener("click", () => {        
-        return theShoes.shoes.filter(shoe => shoe.gender === "woman")
+    womenButton.addEventListener("click", function () {        
+       console.log(theShoes.shoes.filter(shoe=> shoe.gender === "woman"))
     })
+
+    menButton.addEventListener("click", function () {        
+        console.log(theShoes.shoes.filter(shoe=> shoe.gender === "man"))
+     })
+
+
 }
 initializePage();
 
