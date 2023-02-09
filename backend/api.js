@@ -17,13 +17,22 @@ router.get('/shoes/:list', async (req, res) => {
 
 });
 
-router.get('/shoes/order', async (req, res) => {
+router.get('/shoes/:order', async (req, res) => {
     const fileData = await fileReaderAsync(filePath);
     const shoes = JSON.parse(fileData)
-    res.json(shoes);;
+    res.send(json(shoes));
 
 });
 
+router.post('/retek', (req, res) => {
+    let order = req.body
+    let db = JSON.parse(fs.readFileSync('./backend/order.json'))
+    console.log(db);
+    db.orders.push(order)
+    console.log(db);
+    fs.writeFileSync('./backend/order.json', JSON.stringify(db, null, '\t'))
+    res.send('hi')
+})
 
 
 module.exports = router;
