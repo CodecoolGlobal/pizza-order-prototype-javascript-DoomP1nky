@@ -11,7 +11,7 @@
             ],
             "price": "35.990",
             "gender": "woman",
-            "src": "/pictures/140743.jpg"
+            "src": "/pictures/vansEraDx.jpg"
         },
         {
             "id": 2,
@@ -24,8 +24,7 @@
             ],
             "price": "29.990",
             "gender": "woman",
-            "src": "/pictures/VansSk8.jpg"
-
+            "src": "/pictures/sk8HI.jpg"
         },
         {
             "id": 3,
@@ -37,8 +36,7 @@
             ],
             "price": "33.990",
             "gender": "man",
-            "src": "/pictures/VansOldSjpg.jpg"
-
+            "src": "/pictures/OldSkool2.jpg"
         },
         {
             "id": 4,
@@ -52,7 +50,6 @@
             "price": "21.770",
             "gender": "woman",
             "src": "/pictures/adidas_astir-w.jpeg"
-
         },
         {
             "id": 5,
@@ -65,7 +62,6 @@
             "price": "37.990",
             "gender": "woman",
             "src": "/pictures/Adidas_Retropy_Adisuper_W.jpg"
-
         },
         {
             "id": 6,
@@ -78,7 +74,6 @@
             "price": "23.990",
             "gender": "woman",
             "src": "/pictures/Adidas_Retropy_F2_J.jpg"
-
         },
         {
             "id": 7,
@@ -93,7 +88,6 @@
             "price": "2.499",
             "gender": "man",
             "src": "/pictures/fekete-pvc-csizma.jpg"
-
         },
         {
             "id": 8,
@@ -109,7 +103,6 @@
             "price": "256.000",
             "gender": "man",
             "src": "/pictures/Gucci_Light.jpg"
-
         },
         {
             "id": 9,
@@ -125,7 +118,6 @@
             "price": "172.000",
             "gender": "woman",
             "src": "/pictures/gucci-Black-Platform-Perforated-G-Sandal.jpeg"
-
         }
     ]
 }
