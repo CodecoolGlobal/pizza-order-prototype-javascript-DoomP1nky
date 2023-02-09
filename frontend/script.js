@@ -2,10 +2,13 @@ const root = document.getElementById('root');
 
 const header = document.createElement('div')
 header.id = "header";
-header.textContent = 'ShoeSzter';
 header.style.background = "frontend/pictures/header_pic_v2.jpg";
 root.appendChild(header);
 
+const headerText = document.createElement('div');
+headerText.id = 'header-text';
+headerText.textContent = 'ShoeSzter';
+header.appendChild(headerText);
 // Create an image element
 let image = document.createElement("img");
 

@@ -34,5 +34,4 @@ router.post('/retek', (req, res) => {
     res.send('hi')
 })
 
-
 module.exports = router;
