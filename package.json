@@ -2,9 +2,9 @@
   "name": "pizza-order-prototype-javascript-doomp1nky",
   "version": "1.0.0",
   "description": "No starter code is provided. Start from scratch!",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js"
+    "devStart": "nodemon ./backend/server.js"
   },
   "repository": {
     "type": "git",
